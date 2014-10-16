@@ -1,0 +1,53 @@
+<style>
+
+body {font-family: 'Open Sans Condensed',sans-serif;}
+
+h1 {font-size: 1.4em;}
+
+#boundingbox {width: 60%; margin-left: auto; margin-right: auto; position: relative; border: 1px solid #000;}
+
+.county {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.75px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.county-outline {
+  fill: none;
+}
+
+.key {
+  font: 10px;
+  font-family: 'Open Sans Condensed',sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#linechart {
+  font: 10px;
+  font-family: sans-serif;
+}
+
+.caption {
+  font-weight: 600;
+}
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+	
+</style>
